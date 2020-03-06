@@ -56,6 +56,32 @@ mkdir build && cd build
 cmake ..
 make
 ```
+Arch specific packages to install
+```
+build-essential
+cmake
+ninja
+qt5multimedia
+python-protobuf
+```
+ChromeOS (>80) packages to install
+```
+build-essential
+cmake
+ninja-build
+qtmultimedia5-dev
+protobuf-compiler
+libssl-dev
+libqt5svg5-dev
+libsdl2-dev
+libavutil-dev
+libswresample-dev
+libswscale-dev
+libavcodec-dev
+
+python3-pip
+pip3 install protobuf
+```
 
 ## Usage
 
